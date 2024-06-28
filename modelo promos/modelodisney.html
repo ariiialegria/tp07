@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dinei-</title>
+    <style>
+        /*, displey fleex, yastin*/
+        .container {
+            justify-content: center;
+            border: 10px solid transparent;
+            
+        }
+
+        .box {
+            display: flex;
+            justify-content: space-between;
+            background: rgb(108, 0, 167);
+            background: linear-gradient(90deg, rgba(108, 0, 167, 1) 0%, rgba(154, 22, 187, 1) 0%, rgba(203, 0, 255, 1) 64%, rgba(51, 15, 121, 1) 87%);
+        }
+
+        .boton {
+            justify-content: left;
+            align-items: center;
+            margin-top: 15px;
+            margin-right: 10px;
+            background-color: transparent;
+            color: white;
+            border: 1px solid black;
+        }
+        
+        .titulo{
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        span{
+            text-decoration: line-through;
+        }
+
+        .medida {
+            width: 50px;
+            height: 50px;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logos {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        p{
+           color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box"> <!--caja degradada/flex-->
+            <div>
+                <p class="titulo">Suscribite al nivel 6 <span>$10.000</span>$3.999/mes</p>
+            </div>
+            <div> <!--boton-->
+                <button class="boton">Suscribite</button>
+
+            </div>
+        </div>
+        <div class="box2"> <!--caja de abajo-->
+            <!--¿va con div o sin div?-->
+            <h3>Conseguí los mejores beneficios en Mercado Libre</h3>
+            <div class="logos"> <!--logos/flex-->
+                <div class="logo">
+                    <img class="medida" src="/modelo spam/disney.avif" alt="">
+                    <p>Disney+ sin cargo</p>
+
+                </div>
+                <div class="logo">
+                    <img class="medida" src="/modelo spam/star.webp" alt="">
+                    <p>Star+ sin cargo</p>
+                </div>
+                <div class="logo">
+                    <img class="medida" src="enviado.png" alt="">
+                    <p>Envios gratis y rápidos desde $23.000 y <br>
+                        45% OFF en envios de menos de $23.000 </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+
+</html>
